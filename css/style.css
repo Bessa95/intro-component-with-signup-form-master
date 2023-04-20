@@ -1,0 +1,76 @@
+:root{
+    --primary-1: #ff7a7a;
+    --primary-2: #38cc8c;
+    --accent: #6055a5;
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+    --poppins: 'Poppins', sans-serif;
+}
+body{
+    background: var(--primary-1);
+    background-image: url(../images/bg-intro-desktop.png);
+    font-family: var(--poppins);
+    font-size: 16px;
+    color: white;
+}
+.content{
+    display: flex;
+}
+.text{
+    width: 45rem;
+    padding: 5rem;
+}
+.form{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.try-pay{
+    background: var(--accent);
+    color: white;
+    border-radius: .4rem;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 6rem;
+    box-shadow: 0px .4rem 0px 0px rgba(153, 77, 77, 0.43);
+    font-family: var(--poppins);
+}
+.try-pay span{
+    font-weight: 700;
+}
+.content-form{
+    width: 26.88rem;
+    border-radius: .38rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background: white;
+}
+.content-form > input{
+    width: 18.5rem;
+    margin: 0 1.38rem;
+    padding: .8rem 1.8rem;
+    margin-bottom: .8rem;
+    border: 0.1px solid #DEDEDE;
+    border-radius: .3rem;
+}
+.content-form button{
+    width: 22.4rem;
+    margin: 0 1.38rem;
+    border: none;
+    background: var(--primary-2);
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .2rem;
+    font-family: var(--poppins);
+    font-weight: 700;
+    
+}
+.attribution{
+    text-align: center;
+}
